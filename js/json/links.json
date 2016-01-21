@@ -1,5 +1,120 @@
 [
   {
-
+    "group" : "Stevens",
+    "links" : [
+      {
+        "title" : "Stevens Website",
+        "link" : "https://www.stevens.edu"
+      },
+      {
+        "title" :  "MyStevens",
+        "link" : "https://mystevens.stevens.edu"
+      },
+      {
+        "title" : "Canvas",
+        "link" : "https://sit.instructure.com"
+      }
+    ]
+  },
+  {
+    "group" : "League Of Legends",
+    "links" : [
+      {
+        "title" : "League of Legends Website",
+        "link" : "https://na.leagueoflegends.com"
+      },
+      {
+        "title" : "Champion.gg",
+        "link" : "http://champion.gg"
+      },
+      {
+        "title" : "Op.GG",
+        "link" : "http://na.op.gg/summoner/name/userName=lilsmackzd"
+      },
+      {
+        "title" : "LoLNexus",
+        "link" : "http://www.lolnexus.com/NA/search?name=lilsmackzd&region=NA"
+      }
+    ]
+  },
+  {
+    "group" : "Development",
+    "links" : [
+      {
+        "title" : "A And Z Construction",
+        "link" : "http://www.aandzconstructionservices.com"
+      },
+      {
+        "title" : "A And Z Development",
+        "link" : "localhost:8000"
+      },
+      {
+        "title" : "PhpMyAdmin",
+        "link" : "localhost/phpmyadmin"
+      },
+      {
+        "title" : "GitHub",
+        "link" : "https://www.github.com"
+      },
+      {
+        "title" : "Bootstrap",
+        "link" : "http://www.getbootstrap.com"
+      },
+      {
+        "title" : "DevDocs",
+        "link" : "http://devdocs.io"
+      }
+    ]
+  },
+  {
+    "group" : "Social",
+    "links" : [
+      {
+        "title" : "Facebook",
+        "link" : "https://www.facebook.com"
+      },
+      {
+        "title" : "Twitter",
+        "link" : "https://www.twitter.com"
+      },
+      {
+        "title" : "YouTube",
+        "link" : "https://www.youtube.com"
+      }
+    ]
+  },
+  {
+    "group" : "Reddit",
+    "links": [
+      {
+        "title" : "League of Legends",
+        "link" : "https://www.reddit.com/r/leagueoflegends"
+      },
+      {
+        "title" : "Old School Runescape",
+        "link" : "https://www.reddit.com/r/2007scape"
+      },
+      {
+        "title" : "AskReddit",
+        "link" : "https://www.reddit.com/r/askreddit"
+      },
+      {
+        "title" : "BPT",
+        "link" : "https://www.reddit.com/r/blackpeopletwitter"
+      }
+    ]
+  },
+  {
+    "group" : "Miscellaneous",
+    "links" : [
+      {
+        "title" : "PNC Online Banking",
+        "link" : "https://www.pnc.com/en/personal-banking/virtual-wallet-overview.html"
+      },
+      {
+        "title" : "Netflix",
+        "link" : "http://www.netflix.com/browse"
+      }
+    ]
   }
 ]
