@@ -46,11 +46,11 @@
       },
       {
         "title" : "A And Z Development",
-        "link" : "localhost:8000"
+        "link" : "http://localhost:8000"
       },
       {
         "title" : "PhpMyAdmin",
-        "link" : "localhost/phpmyadmin"
+        "link" : "http://localhost/phpmyadmin"
       },
       {
         "title" : "GitHub",
