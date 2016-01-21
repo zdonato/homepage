@@ -114,6 +114,10 @@
       {
         "title" : "Netflix",
         "link" : "http://www.netflix.com/browse"
+      },
+      {
+        "title" : "Spotify",
+        "link" : "https://play.spotify.com"
       }
     ]
   }
