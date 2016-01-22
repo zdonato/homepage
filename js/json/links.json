@@ -13,6 +13,10 @@
       {
         "title" : "Canvas",
         "link" : "https://sit.instructure.com"
+      },
+      {
+        "title" : "Email",
+        "link" : "https://mail.google.com/mail/u/1/"
       }
     ]
   },
@@ -41,11 +45,11 @@
     "group" : "Development",
     "links" : [
       {
-        "title" : "A And Z Construction",
+        "title" : "A & Z",
         "link" : "http://www.aandzconstructionservices.com"
       },
       {
-        "title" : "A And Z Development",
+        "title" : "A & Z Dev",
         "link" : "http://localhost:8000"
       },
       {
@@ -80,6 +84,10 @@
       {
         "title" : "YouTube",
         "link" : "https://www.youtube.com"
+      },
+      {
+        "title" : "Email (zacharyadonato@gmail.com)",
+        "link" : "https://mail.google.com/mail/u/0/"
       }
     ]
   },
@@ -118,6 +126,10 @@
       {
         "title" : "Spotify",
         "link" : "https://play.spotify.com"
+      },
+      {
+        "title" : "Pandora",
+        "link" : "http://www.pandora.com/"
       }
     ]
   }
