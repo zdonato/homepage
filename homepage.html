@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Zach's Homepage</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <script src="js/angular.min.js" type="text/javascript"></script>
     <script src="js/app.js" type="text/javascript"></script>
     <script src="js/Controllers/HomePageController.js"></script>
@@ -29,6 +30,34 @@
         <div class="col-lg-5">
             <div class="page-header">
                 <h2> {{ currDate }} </h2>
+            </div>
+            <div class="weather-block ">
+                <div class="current">
+                    <div class="row temp">
+                        Current temp: {{ weather.currentTemp }}&#176<sup class="temp-unit">F</sup>
+                    </div>
+                    <div class="row conditions">
+                        Current conditions are {{ weather.currentCondition }}
+                        <img ng-src="{{weather.currentIcon}}" alt="Current condition image for {{ weather.currentCondition }}"/>
+                    </div>
+                </div>
+                <hr>
+                <div class="forecast">
+                    <div class="row temp">
+                        Today's high: {{ weather.high }}&#176<sup class="temp-unit">F</sup>
+                    </div>
+                    <div class="row temp">
+                        Today's low: {{ weather.low }}&#176<sup class="temp-unit">F</sup>
+                    </div>
+                    <div class="row conditions">
+                        Today's conditions are {{ weather.condition }}
+                        <img ng-src="{{weather.icon}}" alt="Current weather icon for {{ weather.condition }}"/>
+                    </div>
+                    <div class="row forecast-link">
+                        <a href="{{weather.forecastLink}}">Today's forecast link for Hoboken.</a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>

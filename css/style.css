@@ -1,0 +1,30 @@
+.weather-block {
+    margin-left: 15px;
+}
+
+.weather-block .temp {
+    font-size : 40px;
+}
+
+.weather-block .current .temp {
+    font-size: 50px;
+}
+
+.weather-block .conditions {
+    font-size: 20px;
+}
+
+.weather-block .conditions img {
+    position: relative;
+    top: -6px;
+}
+
+.temp-unit {
+    top: -14px;
+    font-size: 20px;
+}
+
+.forecast .forecast-link a {
+    text-decoration: none;
+    font-size: 20px;
+}

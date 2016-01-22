@@ -23,7 +23,7 @@ homepage.controller('HomePageController', ['$scope', '$http', '$interval',
 
         var getWeather = function() {
 
-            $http.get('http://api.wunderground.com/api/2951699d2fd11ad7/forecast/geolookup/conditions/q/NJ/Hoboken.json')
+            $http.get('http://api.wunderground.com/api/' + this.apiKey + '/forecast/geolookup/conditions/q/NJ/Hoboken.json')
                 .success(function (response) {
                     var forecast = response.forecast.simpleforecast.forecastday[0];
 
@@ -31,7 +31,12 @@ homepage.controller('HomePageController', ['$scope', '$http', '$interval',
                         high : forecast.high.fahrenheit,
                         low: forecast.low.fahrenheit,
                         condition : forecast.conditions,
-                        icon : forecast.icon_url
+                        icon : forecast.icon_url,
+                        currentIcon : response.current_observation.icon_url,
+                        currentCondition : response.current_observation.weather,
+                        currentTemp : response.current_observation.temp_f,
+                        forecastLink : response.current_observation.forecast_url,
+                        feelsLike : response.current_observation.feelslike_f
                     }
                 })
                 .error( function (error) {
