@@ -16,7 +16,7 @@
       },
       {
         "title" : "Email",
-        "link" : "https://mail.google.com/mail/u/1/"
+        "link" : "https://inbox.google.com/u/1/"
       }
     ]
   },
@@ -87,7 +87,7 @@
       },
       {
         "title" : "Email (zacharyadonato@gmail.com)",
-        "link" : "https://mail.google.com/mail/u/0/"
+        "link" : "https://inbox.google.com/u/0/"
       },
       {
         "title" : "Slack",
