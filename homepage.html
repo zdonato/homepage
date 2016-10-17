@@ -27,7 +27,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-5">
+        <div class="col-lg-5 right-col">
             <div class="page-header">
                 <h2> {{ currDate }} </h2>
             </div>
@@ -57,7 +57,16 @@
                         <a href="{{weather.forecastLink}}">Today's forecast link for Hoboken.</a>
                     </div>
                 </div>
-
+                <hr>
+                <div class="championgg">
+                    <div class="row champ-label">
+                        Champion.gg Direct
+                    </div>
+                    <div class="row">
+                        <input ng-model="champion" type="text" ng-keydown="checkKey($event)">
+                        <a href="https://champion.gg/champion/{{champion}}" id="champggLink"><button>Go</button></a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

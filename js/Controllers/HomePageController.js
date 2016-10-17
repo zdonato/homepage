@@ -44,6 +44,12 @@ homepage.controller('HomePageController', ['$scope', '$http', '$interval',
                 });
         };
 
+        $scope.checkKey = function ($event) {
+            if ($event.which === 13) {
+                document.getElementById("champggLink").click();
+            }
+        };
+
         update();
         $interval(update, 1000);
     }
